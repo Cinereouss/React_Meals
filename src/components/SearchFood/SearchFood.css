@@ -1,0 +1,39 @@
+.SearchMeals{
+    margin: 2rem 0;
+}
+.SearchMeals cite{
+    font-size: 1rem;
+}
+.SearchMeals{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+.SearchInput{
+    width: 100%;
+}
+
+.SearchInput{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid var(--tenne-tawny);
+    color: var(--tenne-tawny);
+    border-radius: 2rem;
+    height: 50px;
+}
+
+.SearchInput::placeholder{
+    color: var(--tenne-tawny);
+}
+
+/* Media Queries */
+@media screen and (min-width: 600px){
+    .SearchMeals{
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
